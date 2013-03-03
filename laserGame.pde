@@ -40,7 +40,7 @@ void setup(){
   Dead = false;
  
    
-  font = loadFont("PigIronBold-48.vlw");
+  font = loadFont("AgencyFB-Reg-48.vlw");
   textFont(font, 32); 
   
   menu = false;
@@ -187,14 +187,7 @@ public void keyPressed (){
 public void mouseClicked (){
   
 
-  if(menu)
-  {
-    
-    menu = false;
-    
-    
-  }
-  else
+ if(!pasue)
   {
    
      if(LaserCount < 20)
